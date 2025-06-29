@@ -62,7 +62,7 @@ main {
     padding-bottom: 2em;
 }
 .hero {
-    background: url('Images/KT Image.jpeg') center/cover no-repeat;
+    background: url('KT Image.jpeg') center/cover no-repeat;
     color: #0c0c0c;
     padding: 4em 1em 3em 1em;
     display: flex;
