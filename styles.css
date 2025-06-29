@@ -1,0 +1,260 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #f7fafd;
+    color: #5d2a1b60;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(27,54,93,0.05);
+    padding: 1em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #e2e2e2;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: #1b365d;
+}
+.tagline {
+    color: #b30a0a;
+    font-size: 1.1em;
+    margin: 0.3em 0 0 0;
+    font-weight: 500;
+}
+nav {
+    display: flex;
+    gap: 2em;
+}
+nav a {
+    color: #1b365d;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    position: relative;
+    padding: 4px 0;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #b30a0a;
+}
+main {
+    padding-bottom: 2em;
+}
+.hero {
+    background: url('KT Image.jpeg') center/cover no-repeat;
+    color: #0c0c0c;
+    padding: 4em 1em 3em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    text-align: center;
+}
+.hero-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    font-weight: 700;
+}
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+.hero-actions {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.cta-btn {
+    background: #ffb700;
+    color: #1b365d;
+    padding: 0.85em 2em;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 1.1em;
+    border: none;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: inline-block;
+}
+.cta-btn.call-btn {
+    background: #b30a0a;
+    color: #fff;
+}
+.cta-btn.whatsapp-btn {
+    background: #25D366;
+    color: #fff;
+}
+.cta-btn:hover {
+    opacity: 0.88;
+}
+.destinations {
+    background: #fff;
+    padding: 3em 1em 2em 1em;
+}
+.destinations h3 {
+     text-align: center;
+    color: #1b365d;
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-weight: 700;
+}
+.dest-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+.dest-card {
+    background: #f5f8fb;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(27,54,93,0.06);
+    padding: 1.5em;
+    width: 330px;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+.dest-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(27,54,93,0.12);
+}
+.dest-card h4 {
+    color: #1b365d;
+    margin-bottom: 0.4em;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+.dest-card p {
+    color: #373737;
+    margin: 0;
+    font-size: 1em;
+}
+.booking {
+    padding: 3em 1em 3em 1em;
+    background: #fcfbf6;
+    text-align: center;
+}
+.booking h3 {
+    color: #1b365d;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+    font-weight: 700;
+}
+.booking-actions {
+    display: flex;
+    gap: 1.2em;
+    justify-content: center;
+    margin-bottom: 1.1em;
+}
+.booking-note {
+    font-size: 1.05em;
+    color: #555;
+    margin-top: 1em;
+}
+.aboutus h3 {
+    text-align: center;
+    color: #1b365d;
+    font-size: 2em;
+    margin-bottom: 0.7em;
+    font-weight: 700;
+}
+.aboutus p {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+    font-weight: 500;
+}
+.contact {
+    background: #fff;
+    padding: 2.5em 1em;
+    text-align: center;
+}
+.contact h3 {
+    color: #1b365d;
+    font-size: 2em;
+    margin-bottom: 0.7em;
+    font-weight: 700;
+}
+.contact a {
+    color: #b30a0a;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 0.2em;
+}
+.socials {
+    margin-top: 1.2em;
+}
+.socials a {
+    display: inline-block;
+    margin: 0 0.4em;
+}
+.socials img {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+footer {
+    background: #1b365d;
+    color: #fff;
+    text-align: center;
+    padding: 1.2em 0;
+    font-size: 1em;
+    margin-top: 2em;
+}
+@media (max-width: 900px) {
+    .dest-cards {
+        gap: 1.2em;
+    }
+    .dest-card {
+        width: 95%;
+        min-width: 260px;
+    }
+}
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em 0.5em;
+        gap: 0.8em;
+    }
+    .branding {
+        gap: 0.5em;
+    }
+    nav {
+        gap: 1em;
+        margin-top: 0.4em;
+    }
+    .hero {
+        padding: 2.2em 1em 2em 1em;
+    }
+    .dest-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .booking-actions {
+        flex-direction: column;
+        gap: 0.7em;
+    }
+}
