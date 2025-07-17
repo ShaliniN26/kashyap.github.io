@@ -62,8 +62,8 @@ main {
     padding-bottom: 2em;
 }
 .hero {
-    background: url('Images/KT Image.jpeg') center/cover no-repeat;
-    color: #0c0c0c;
+    background: url('Images/TestCar.jpeg') center/cover no-repeat;
+    color: #c71f2df6;
     padding: 4em 1em 3em 1em;
     display: flex;
     align-items: center;
